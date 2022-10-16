@@ -5,9 +5,9 @@ namespace Molnar_Lorand_Lab1.Controllers
 {
     public class TestController : Controller
     {
-        public IActionResult Index()
+        public String Index()
         {
-            return Content("Hello");
+            return "Hello";
         }
 
 
