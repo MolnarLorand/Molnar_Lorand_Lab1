@@ -15,6 +15,7 @@ namespace Molnar_Lorand_Lab1.Controllers
 
         public IActionResult Index()
         {
+
             return View();
         }
 
