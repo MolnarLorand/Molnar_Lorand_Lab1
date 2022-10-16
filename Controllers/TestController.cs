@@ -20,8 +20,6 @@ namespace Molnar_Lorand_Lab1.Controllers
 
         public String Test(int number, String Name)
         {
-            number = 10;
-            Name = "Test";
 
             return "t- "+number+" "+Name;
         }
