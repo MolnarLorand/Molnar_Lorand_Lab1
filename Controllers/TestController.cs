@@ -5,23 +5,23 @@ namespace Molnar_Lorand_Lab1.Controllers
 {
     public class TestController : Controller
     {
-        public IActionResult Index()
+        public String Index()
         {
-            return Content("Hello");
+            return "Hello";
         }
 
 
-        public IActionResult Greeting()
+        public String Greeting()
         {
             String greeting = "Salut";
 
-            return Content(greeting);
+            return greeting;
         }
 
-        public IActionResult Test(int number, String Name)
+        public String Test(int Number, String Name)
         {
 
-            return Content("t- "+number+" "+Name);
+            return "Hello "+Name+" "+Number;
         }
 
 
