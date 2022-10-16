@@ -7,7 +7,7 @@ namespace Molnar_Lorand_Lab1.Controllers
     {
         public IActionResult Index()
         {
-            return View();
+            return Content("Hello");
         }
 
 
@@ -23,8 +23,7 @@ namespace Molnar_Lorand_Lab1.Controllers
             number = 10;
             Name = "Test";
 
-            Console.WriteLine($"Hello, {Name},{number}");
-            return "mesaj"+number+" "+Name;
+            return "t- "+number+" "+Name;
         }
 
 
