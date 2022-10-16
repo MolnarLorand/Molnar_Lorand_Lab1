@@ -13,9 +13,9 @@ namespace Molnar_Lorand_Lab1.Controllers
 
         public String Greeting()
         {
-            String greering = "Salut";
+            String greeting = "Salut";
 
-            return greering;
+            return greeting;
         }
 
         public String Test(int number, String Name)
